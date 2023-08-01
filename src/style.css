@@ -493,22 +493,22 @@ form .btn{
 
 /* contact */
 .contact{
-  min-height: 50vh;
+  min-height: 43vh;
 }
 
 
 .contact p{
   max-width: 1000px;
-  font-size: 20px;
-  margin: 30px;
+  font-size: 18px;
+  margin: 10px;
 }
 .contact a{
 
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .contact h2{
-  font-size: 48px;
+  font-size: 45px;
   font-weight: 800;
 
 }
