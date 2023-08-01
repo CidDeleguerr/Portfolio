@@ -2,9 +2,9 @@
 const typed = new Typed(".typing-text", {
   strings: ["Web Developer.", "Gamer."],
   loop: true,
-  typeSpeed: 15,
+  typeSpeed: 75,
   backSpeed: 25,
-  backDelay: 2000,
+  backDelay: 800,
 });
 
 // auto hide navbar click
