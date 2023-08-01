@@ -76,7 +76,7 @@ html::-webkit-scrollbar-thumb {
   position: absolute;
   height: 4px;
   width: 30px;
-  background: var(--primary);
+  background: var(--xx);
   border-radius: 2px;
   opacity: 1;
   left: 0;
