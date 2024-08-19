@@ -84,18 +84,18 @@ form .btn{ font-size: 20px; padding:2px 8px; font-weight: 500; color: var(--prim
 
 } .contact h2 span{ color: var(--primary); }
 
-/* footer */ info{ height: 100%; }
+/* footer */ footer{ height: 100%; }
 
-info .top{ background: #ffffff; }
+footer .top{ background: #ffffff; }
 
-info .bottom{ background: #F3F3F3; color: var(--xx); } info .bottom a{ text-decoration: none; } info .content{ margin: 20px; text-decoration: none; color: var(--xx); } info .content img{ width: 50px; margin-bottom: 10px; } info .content:nth-child(3) a i{ color: var(--xx); } info .content a, info .content p{ text-decoration: none; color: var(--xx); margin-bottom: 6px; font-size: 18px; }infoontent a:hover{ color: var(--Cid); }
+footer .bottom{ background: #F3F3F3; color: var(--xx); } footer .bottom a{ text-decoration: none; } footer .content{ margin: 20px; text-decoration: none; color: var(--xx); } footer .content img{ width: 50px; margin-bottom: 10px; } footer .content:nth-child(3) a i{ color: var(--xx); } footer .content a, footer .content p{ text-decoration: none; color: var(--xx); margin-bottom: 6px; font-size: 18px; }footer .content a:hover{ color: var(--Cid); }
 
-infoontent .socials{ margin: 20px; }
+footer .content .socials{ margin: 20px; }
 
-infoontent .socials a{ font-size: 22px; width: 40px; height: 40px; text-align: center; margin-right: 10px; border-radius: 100%; display: inline-block; line-height: 42px; color: var(--xx); background-color: var(--light); -webkit-transition: all 0.2s linear; -o-transition: all 0.2s linear; transition: all 0.2s linear; }
+footer .content .socials a{ font-size: 22px; width: 40px; height: 40px; text-align: center; margin-right: 10px; border-radius: 100%; display: inline-block; line-height: 42px; color: var(--xx); background-color: var(--light); -webkit-transition: all 0.2s linear; -o-transition: all 0.2s linear; transition: all 0.2s linear; }
 
-infoontent .socials a:active, infoontent .socials a:focus, infoontent .socials a:hover { background-color: var(--xx); color: var(--Cid); }
+footer .content .socials a:active, footer .content .socials a:focus, footer .content .socials a:hover { background-color: var(--xx); color: var(--Cid); }
 
-infoontent .socials a.Gmail:hover, infoontent .socials a.Facebook:hover, infoontent .socials a.Messenger:hover { background-color: var(--xx); }
+footer .content .socials a.Gmail:hover, footer .content .socials a.Facebook:hover, footer .content .socials a.Messenger:hover { background-color: var(--xx); }
 
-@media screen and (max-width: 860px) { infop{ flex-direction: column; } }
+@media screen and (max-width: 860px) { footer .top{ flex-direction: column; } }
