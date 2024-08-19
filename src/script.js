@@ -1,4 +1,4 @@
-// typing text hero
+// Cidd
 const typed = new Typed(".typing-text", {
   strings: ["A Beginner Programmer.", "Web Developer.", "Gamer.", "Nothing.", "..."],
   loop: true,
@@ -7,12 +7,12 @@ const typed = new Typed(".typing-text", {
   backDelay: 800,
 });
 
-// auto hide navbar click
+
 $(".click-trigger").click(function () {
   $(".navbar-collapse").collapse("hide");
 });
 
-// automatic transparent navbar
+
 const navBar = document.getElementsByTagName("nav")[0];
 window.addEventListener("scroll", function () {
   console.log(window.scrollY);
@@ -23,7 +23,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// fetchData API
+
 async function fetchData(type = "Skils") {
   let response;
 }
@@ -103,7 +103,7 @@ fetchData("skills").then((data) => {
   showSkills(data);    
 });
 
-// loadmore button
+
 const loadmore = document.querySelector(".loadmore-btn");
 
 let currentItems = 3;
@@ -124,10 +124,10 @@ loadmore.addEventListener("click", () => {
   }
 });
 
-// animate on scroll (AOS)
+
 AOS.init();
 
-// disable inspect element or dev mode
+
 document.addEventListener("contextmenu", function(e){
   e.preventDefault();
 });
@@ -150,12 +150,12 @@ document.onkeydown = function (e){
   }
 }
 
-// Scrollspy botstrap
+
 const scrollSpy = new bootstrap.ScrollSpy(document.body, {
   target: ".navbar",
 });
 
-// scroll reveal animation content
+
 const srtop = ScrollReveal({
   origin: "top",
   distance: "90px",
